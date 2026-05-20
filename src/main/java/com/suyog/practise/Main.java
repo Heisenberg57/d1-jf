@@ -12,5 +12,12 @@ public class Main {
         Employee emp4 = new Employee("sangram",40,70000,"SAP","sangramdesai@infosys.com");
         Employee emp5 = new Employee("shankar",40,80000,"Java","shankardongre@infosys.com");
 
+        emp2.displayInfo();
+        emp3.displayInfo();
+        emp4.displayInfo();
+        emp5.displayInfo();
+
+
+
     }
 }
