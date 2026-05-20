@@ -22,4 +22,9 @@ public class Employee {
         System.out.println("Department of the employee is: "+department);
         System.out.println("Email  of the employee is: "+email);
     }
+
+    void incrementSalary(double incrementAmount){
+        salary+=incrementAmount;
+        System.out.println("Incremented Salary is " + salary);
+    }
 }
