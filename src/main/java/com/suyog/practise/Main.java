@@ -30,26 +30,32 @@ public class Main {
 //        m.displayTeamSize();
 
         //displayInfo();
+//
+//        Dog dog = new Dog("Terror");
+//        dog.printName();
+//
+//        Cat cat = new Cat("Barku");
+//        cat.printName();
+//
+//        Lion lion = new Lion("Simba");
+//        lion.sound();
+//
+//        Cow cow = new Cow("otis");
+//        cow.sound();
+//
+//        Elephant elephant = new Elephant("Jumbo");
+//        elephant.sound();
+//        elephant.eat();
+//        cow.eat();
+//        lion.eat();
 
-        Dog dog = new Dog("Terror");
-        dog.printName();
+        Animal[] animals = new Animal[]{new Dog("Arron"),new Cat("Dusky"),new Lion("Scar"),
 
-        Cat cat = new Cat("Barku");
-        cat.printName();
+        new Cow("Mangal"),new Elephant("Rani")};
 
-        Lion lion = new Lion("Simba");
-        lion.sound();
-
-        Cow cow = new Cow("otis");
-        cow.sound();
-
-        Elephant elephant = new Elephant("Jumbo");
-        elephant.sound();
-        elephant.eat();
-        cow.eat();
-        lion.eat();
-
-
+        for(Animal animal:animals){
+            animal.sound();
+        }
 
     }
 }
