@@ -45,6 +45,9 @@ public class Main {
 
         Elephant elephant = new Elephant("Jumbo");
         elephant.sound();
+        elephant.eat();
+        cow.eat();
+        lion.eat();
 
 
 
