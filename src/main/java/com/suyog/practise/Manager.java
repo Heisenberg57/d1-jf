@@ -5,6 +5,13 @@ public class Manager {
 
     public Manager(int teamSize){
         this.teamSize=teamSize;
-        System.out.println("The team size of assigned manager is : "+teamSize);
+    }
+
+    public Manager(){
+        teamSize = 5;
+    }
+
+    void displayTeamSize(){
+        System.out.println("Team size of mentioned manager is: "+teamSize);
     }
 }
