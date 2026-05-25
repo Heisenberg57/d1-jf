@@ -31,11 +31,11 @@ public class Main {
 
         //displayInfo();
 
-        Dog dog = new Dog();
-        dog.sound();
+        Dog dog = new Dog("Terror");
+        dog.printName();
 
-        Cat cat = new Cat();
-        cat.sound();
+        Cat cat = new Cat("Barku");
+        cat.printName();
 
 
 
