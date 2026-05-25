@@ -37,6 +37,15 @@ public class Main {
         Cat cat = new Cat("Barku");
         cat.printName();
 
+        Lion lion = new Lion("Simba");
+        lion.sound();
+
+        Cow cow = new Cow("otis");
+        cow.sound();
+
+        Elephant elephant = new Elephant("Jumbo");
+        elephant.sound();
+
 
 
     }
